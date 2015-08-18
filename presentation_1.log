@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.27)  17 AUG 2015 16:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.27)  17 AUG 2015 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -916,16 +916,16 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Missing character: There is no √ in font cmss10!
-Missing character: There is no ° in font cmss10!
-Missing character: There is no √ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
  [2
 
 ] [3
 
 ]
-Missing character: There is no √ in font cmss10!
-Missing character: There is no ≠ in font cmss10!
+Missing character: There is no ¬ in font cmss10!
+Missing character: There is no † in font cmss10!
+Missing character: There is no ¬ in font cmss10!
+Missing character: There is no † in font cmss10!
  [4
 
 ] [5
@@ -933,96 +933,120 @@ Missing character: There is no ≠ in font cmss10!
 ] [6
 
 ]
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ì in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ì in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ì in font cmss10!
+
 [7
 
 ] [8
 
 ]
 Missing character: There is no √ in font cmss10!
-Missing character: There is no ≥ in font cmss10!
-Missing character: There is no √ in font cmss10!
-Missing character: There is no © in font cmss10!
-Missing character: There is no √ in font cmss10!
-Missing character: There is no © in font cmss10!
-Missing character: There is no √ in font cmss10!
-Missing character: There is no ≥ in font cmss10!
-Missing character: There is no √ in font cmss10!
-Missing character: There is no ≥ in font cmss10!
-Missing character: There is no √ in font cmss10!
-Missing character: There is no © in font cmss10!
+Missing character: There is no ≠ in font cmss10!
  [9
 
-] <imagenes/espectral.png, id=271, 447.17062pt x 383.93437pt>
-File: imagenes/espectral.png Graphic file (type png)
+] [10
 
-<use imagenes/espectral.png>
-Package pdftex.def Info: imagenes/espectral.png used on input line 221.
-(pdftex.def)             Requested size: 239.60567pt x 205.728pt.
-
-Overfull \vbox (45.40187pt too high) detected at line 221
- []
-
-[10
-
- <./imagenes/espectral.png>] [11
+] [11
 
 ] [12
 
-]
-Missing character: There is no √ in font cmss10!
-Missing character: There is no © in font cmss10!
- [13
+] [13
 
 ]
+Missing character: There is no √ in font cmss10!
+Missing character: There is no ≥ in font cmss10!
+Missing character: There is no √ in font cmss10!
+Missing character: There is no © in font cmss10!
+Missing character: There is no √ in font cmss10!
+Missing character: There is no © in font cmss10!
+Missing character: There is no √ in font cmss10!
+Missing character: There is no ≥ in font cmss10!
+Missing character: There is no √ in font cmss10!
+Missing character: There is no ≥ in font cmss10!
 Missing character: There is no √ in font cmss10!
 Missing character: There is no © in font cmss10!
  [14
 
 ]
-Missing character: There is no √ in font cmss10!
-Missing character: There is no ≥ in font cmss10!
-Missing character: There is no √ in font cmss10!
-Missing character: There is no ≥ in font cmss10!
- [15
+<imagenes/espectral.png, id=404, 447.17062pt x 383.93437pt>
+File: imagenes/espectral.png Graphic file (type png)
 
-] [16
+<use imagenes/espectral.png>
+Package pdftex.def Info: imagenes/espectral.png used on input line 269.
+(pdftex.def)             Requested size: 239.60567pt x 205.728pt.
+
+Overfull \vbox (45.40187pt too high) detected at line 269
+ []
+
+[15
+
+ <./imagenes/espectral.png>] [16
+
+] [17
+
+]
+Missing character: There is no √ in font cmss10!
+Missing character: There is no © in font cmss10!
+ [18
+
+]
+Missing character: There is no √ in font cmss10!
+Missing character: There is no © in font cmss10!
+ [19
+
+]
+Missing character: There is no √ in font cmss10!
+Missing character: There is no ≥ in font cmss10!
+Missing character: There is no √ in font cmss10!
+Missing character: There is no ≥ in font cmss10!
+ [20
+
+] [21
 
 ]
 Missing character: There is no √ in font cmss10!
 Missing character: There is no ° in font cmss10!
- [17
+ [22
 
 ]
 Missing character: There is no √ in font cmss10!
 Missing character: There is no ≥ in font cmss10!
-LaTeX Font Info:    Try loading font information for U+msa on input line 295.
+LaTeX Font Info:    Try loading font information for U+msa on input line 343.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 295.
+LaTeX Font Info:    Try loading font information for U+msb on input line 343.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [18
+) [23
 
 ]
 Missing character: There is no √ in font cmss10!
 Missing character: There is no ≥ in font cmss10!
 Missing character: There is no √ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
- [19
+ [24
 
 ]
-<imagenes/normalizacion.png, id=542, 552.56438pt x 197.23688pt>
+<imagenes/normalizacion.png, id=674, 552.56438pt x 197.23688pt>
 File: imagenes/normalizacion.png Graphic file (type png)
 
 <use imagenes/normalizacion.png>
-Package pdftex.def Info: imagenes/normalizacion.png used on input line 325.
+Package pdftex.def Info: imagenes/normalizacion.png used on input line 373.
 (pdftex.def)             Requested size: 273.83728pt x 97.74539pt.
- [20
+ [25
 
- <./imagenes/normalizacion.png>] [21
+ <./imagenes/normalizacion.png>] [26
 
 ]
 Missing character: There is no √ in font cmss10!
@@ -1036,7 +1060,7 @@ Missing character: There is no ≥ in font cmss10!
 Missing character: There is no √ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
 
-[22
+[27
 
 ]
 Missing character: There is no ‚ in font cmss10!
@@ -1045,38 +1069,38 @@ Missing character: There is no ú in font cmss10!
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ù in font cmss10!
- [23
+ [28
 
-] [24
+] [29
 
-] <imagenes/iteracion.png, id=678, 831.105pt x 240.9pt>
+] <imagenes/iteracion.png, id=810, 831.105pt x 240.9pt>
 File: imagenes/iteracion.png Graphic file (type png)
 
 <use imagenes/iteracion.png>
-Package pdftex.def Info: imagenes/iteracion.png used on input line 379.
+Package pdftex.def Info: imagenes/iteracion.png used on input line 427.
 (pdftex.def)             Requested size: 273.83432pt x 130.24211pt.
- [25
+ [30
 
- <./imagenes/iteracion.png>] [26
+ <./imagenes/iteracion.png>] [31
 
 ]
-Overfull \hbox (12.77429pt too wide) in paragraph at lines 414--414
+Overfull \hbox (12.77429pt too wide) in paragraph at lines 462--462
  [] 
  []
 
-[27
+[32
 
-] [28
+] [33
 
-] <imagenes/ndviCarb.png, id=788, 642.4pt x 481.8pt>
+] <imagenes/ndviCarb.png, id=920, 642.4pt x 481.8pt>
 File: imagenes/ndviCarb.png Graphic file (type png)
 
 <use imagenes/ndviCarb.png>
-Package pdftex.def Info: imagenes/ndviCarb.png used on input line 436.
+Package pdftex.def Info: imagenes/ndviCarb.png used on input line 484.
 (pdftex.def)             Requested size: 239.60551pt x 156.28906pt.
- [29
+ [34
 
- <./imagenes/ndviCarb.png>] [30
+ <./imagenes/ndviCarb.png>] [35
 
 ]
 \tf@nav=\write6
@@ -1088,15 +1112,15 @@ Package pdftex.def Info: imagenes/ndviCarb.png used on input line 436.
 \tf@snm=\write8
 \openout8 = `presentation_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 449.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 449.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 497.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 497.
 
 (./presentation_1.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 449.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 449.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 497.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 497.
 Package rerunfilecheck Info: File `presentation_1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1104,16 +1128,16 @@ Package rerunfilecheck Info: File `presentation_1.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 449.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 497.
  ) 
 Here is how much of TeX's memory you used:
- 16629 strings out of 493307
- 304512 string characters out of 6139905
- 392168 words of memory out of 5000000
- 19611 multiletter control sequences out of 15000+600000
+ 16649 strings out of 493307
+ 304687 string characters out of 6139905
+ 392222 words of memory out of 5000000
+ 19621 multiletter control sequences out of 15000+600000
  11470 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 55i,16n,57p,679b,660s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,57p,931b,660s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texli
@@ -1124,10 +1148,10 @@ t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
 e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on presentation_1.pdf (30 pages, 474692 bytes).
+Output written on presentation_1.pdf (35 pages, 488257 bytes).
 PDF statistics:
- 890 PDF objects out of 1000 (max. 8388607)
- 819 compressed objects within 9 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 1025 PDF objects out of 1200 (max. 8388607)
+ 948 compressed objects within 10 object streams
+ 76 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

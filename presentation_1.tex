@@ -86,7 +86,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Secuestro de Carbono]{Procesamiento de im\'agenes para determinar cambios del uso de la tierra y estimar secuestro de carbono en el Chaco Paraguayo} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Perdida de Carbono]{Metodolog\'ia autom\'atica para estimar p\'erdida de carbono a trav\'es de procesamiento de im\'agenes satelitales. Caso de uso parte del Chaco Paraguayo} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Santiago Vera Aquino} % Your name
 \institute[FP-UNA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -103,28 +103,76 @@ Universidad Nacional de Asunci\'on \\ % Your institution for the title page
 \titlepage % Print the title page as the first slide
 \end{frame}
 
-
-
-
-
 \begin{frame}
-\frametitle{Introducci\'on}
-El cambio del paisaje de bosques tropicales maduros a paisajes agr\'icolas resulta en una emisi\'on neta de di\'oxido de carbono CO2 a la atm\'osfera. La deforestaci\'on es uno de los factores principales en el balance global de carbono, d\'onde la importancia de los ecosistemas forestales para mitigar las emisiones de gases como el di\'oxido de carbono, que es uno de los más importantes, radica en el potencial de fijaci\'on de estos en la biomasa de las especies arb\'oreas por medio de la fotos\'intesis; creando de este modo un reservorio importante que dependiendo del uso destinado podría almacenar el CO2 por un periodo de tiempo prolongado.\\~\\
+\frametitle{Problem\'atica}
+El cambio del paisaje de bosques tropicales maduros a paisajes agr\'icolas resulta en una emisi\'on neta de di\'oxido de carbono CO2 a la atm\'osfera. La deforestaci\'on es uno de los factores principales en el balance global de carbono, d\'onde la importancia de los ecosistemas forestales para mitigar las emisiones de gases es uno de los m\'as importantes, el cual radica en el potencial de fijaci\'on del CO2 en la biomasa de las especies arb\'oreas por medio de la fotos\'intesis; creando de este modo un reservorio importante que dependiendo del uso destinado podría almacenar el CO2 por un periodo de tiempo prolongado.\\~\\
 
 Paraguay es un pa\'is que basa su econom\'ia en la agricultura y la ganader\'ia extensiva, actividades que han afectado al recurso forestal dando como resultado extensas \'areas deforestadas y degradadas.\\~\\
 
 \end{frame}
-
+%------------------------------------------------
 \begin{frame}
-	\frametitle{Introducci\'on}
-	A pesar que existen leyes de protecci\'on para evitar la deforestaci\'on y valorar los bosques como la Ley de Deforestaci\'on Cero en la Regi\'on Oriental del Paraguay promulgada en el a\~{n}o 2004, y que ser\'a extendida hasta el 2018 y, la Ley de servicios ambientales 3001/06, entre otros instrumentos los mismos, necesitan apoyo para su monitoreo y aplicaci\'on efectiva.\\~\\
+	\frametitle{Problem\'atica}
+	A pesar que existen leyes de protecci\'on para evitar la deforestaci\'on y valorar los bosques como la Ley de Deforestaci\'on Cero en la Regi\'on Oriental del Paraguay promulgada en el a\~{n}o 2004, y que ser\'a extendida hasta el 2018 y, la Ley de servicios ambientales 3001/06, entre otros instrumentos, los mismos necesitan apoyo para su monitoreo y aplicaci\'on efectiva, debido a que los costos en dinero y tiempo no suelen ser bajos por la necesidad de realizar muestreos en el terreno, m\'as a\'un en zonas del chaco por el dif\'icil acceso y falta de informaci\'on ambiental, como tambi\'en la compra de sistemas de car\'acter propietario.\\~\\
 	
 	Con el objetivo de implementar Pol\'iticas de mitigaci\'on del Cambio Cl\'im\'atico relativas a reducir las emisiones provenientes de la degradaci\'on y la deforestaci\'on (REDD+), los pa\'ises en desarrollo deben contar con estimaciones robustas s\'olidas en cuanto a las reservas de carbono forestal.
+	
+	
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Motivac\'ion}
+REDD+ es una iniciativa que tiene como objetivo reducir la p\'erdida de bosques, las actividades REDD+ evitan p\'erdidas como emisiones de gases de efecto invernadero (conservaci\'on, no deforestaci\'on, no degradaci\'on), mantienen el dep\'osito o stock de carbono (conservaci\'on, gesti\'on sostenible), o incrementan el dep\'osito por su efecto de retenci\'on o sumidero de carbono (conservaci\'on, restauraci\'on, gesti\'on sostenible).\\~\\
+	
+El Paraguay se ha embarcado en el proceso de preparaci\'on para Reducir la Deforestaci\'on y Degradaci\'on forestal (REDD+)   a fin de disminuir las emisiones de CO2, conservar los bosques y su biodiversidad, por tanto se busca elaborar una estrategia nacional, con pol\'iticas socios ambientales y econ\'omicos viables, as\'i como el desarrollo de capacidades.
+	
+	
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Motivac\'ion}
+As\'i para medir los beneficios de carbono de un proyecto REDD+, es necesario calcular la cantidad de carbono almacenado en el bosque en cuesti\'on y luego predecir la cantidad de carbono que se podr\'ia conservar si se detiene o reduce la deforestaci\'on y la degradaci\'on forestal.\\~\\
+	
+La mayor\'ia de las investigaciones para estimar y mapear la biomasa en bosques se centran en las t\'ecnicas de Sensores Remotos; debido a las grandes extensiones de las \'areas de estudio, la dificultad de acceder a las mismas, el alto costo del establecimiento de las parcelas de inventario y su limitada utilidad debido a la variabilidad natural espacial de la biomasa forestal. Por ello la necesidad de crear metodolog\'ias que ayuden al monitoreo de forma din\'amica y barata nos lleva al desarrollo de herramientas libres que permitan estimar focos de alerta para la toma de acciones y controles m\'as rigurosos a tiempo.
+	
 	
 \end{frame}
 
 %------------------------------------------------
 
+
+\begin{frame}
+	\frametitle{Antecedentes}
+	Sassan Saatchi de Jet Propulsion Laboratory, California Institute of Technology, en colaboraci\'on con la NASA, realiza investigaciones que se centra en diversos aspectos del ciclo de carbono terrestre. Usa una combinaci\'on de sensores remotos y datos in situ para mapear el carbono almacenado en los bosques, para cuantificar sus cambios con respecto a las perturbaciones humanas y naturales, tambi\'en estimar como las interacciones e impactos clim\'aticos son din\'amicas. 
+	
+	
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Antecedentes}
+
+	Existen trabajos realizados por estudiantes de la Facultad de Agronom\'ia como proyecto de grado en zonas especificas como la reserva de la biosfera del Chaco, Parque Nacional San Rafael y el Parque Nacional Defensores del chaco, todos ellos en la regi\'on Occidental del Paraguay. Implementan una metodolog\'ia base hecha en el marco denominado \textit{Desarrollo del estudio de linea de base para el sitio piloto Bosque atl\'antico de Alto Paran\'a. (BAAPA)} realizado por el Paraguay Land Use (ParLu), el cual es una iniciativa de World Wildlife Fund (WWF)	Paraguay y WWF Alemania que apoya las iniciativas REDD+ en Paraguay, generando a su vez un Mapa de stock de carbono y los correspondientes Mapas de cobertura y de Deforestaci\'on 2000 – 2005 y 2005 – 2011,todo esto conjuntamente con la  Carrera de Ingenier\'ia Forestal de la Facultad de Ciencias Agrarias – Universidad Nacional de Asunci\'on.
+	
+	
+\end{frame}
+
+%------------------------------------------------
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Antecedentes}
+	
+Un estudio realizado por por University of Maryland Institute for Advanced Computer Studies denominado Forest Cover Change in Paraguay, nos muestra el cambio de vegetaci\'on estimado en todo el pais, utilizando el m\'etodo de asignaci\'on de etiquetado de cambio  clustering-supervised.
+	
+\end{frame}
+
+%------------------------------------------------
 \begin{frame}
 	\frametitle{Formulaci\'on general del Proyecto}
 	\begin{block}{Problema u Oporunidad}
