@@ -17,6 +17,13 @@
 
 \documentclass[xcolor=table]{beamer}
 
+\usepackage{tikz}
+\setbeamertemplate{background canvas}{\begin{tikzpicture}\node[opacity=.3]{\includegraphics
+		[width=\paperwidth]{imagenes/background2.png}};\end{tikzpicture}}
+
+%\setbeamertemplate{background}
+%{\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{imagenes/background2.png}}
+
 \mode<presentation> {
 
 % The Beamer class comes with a number of default slide themes
@@ -86,14 +93,17 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Perdida de Carbono]{Metodolog\'ia autom\'atica para estimar p\'erdida de carbono a trav\'es de procesamiento de im\'agenes satelitales. Caso de uso parte del Chaco Paraguayo} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Perdida de Carbono]{Metodolog\'ia autom\'atica para estimar p\'erdida de	carbono a trav\'es de procesamiento de im\'agenes
+	satelitales. Caso de uso Chaco Paraguayo} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Santiago Vera Aquino} % Your name
 \institute[FP-UNA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
 Universidad Nacional de Asunci\'on \\ % Your institution for the title page
+Facultad Polit\'ecnica \\
+Ingenier\'ia en Inform\'atica \\
 \medskip
-\textit{sveraaquino@gmail.com} % Your email address
+\textit{Proyecto Final de grado} % Your email address
 }
 \date{\today} % Date, can be changed to a custom date
 
@@ -103,21 +113,21 @@ Universidad Nacional de Asunci\'on \\ % Your institution for the title page
 \titlepage % Print the title page as the first slide
 \end{frame}
 
-\begin{frame}
-\frametitle{Problem\'atica}
-El cambio del paisaje de bosques tropicales maduros a paisajes agr\'icolas resulta en una emisi\'on neta de di\'oxido de carbono CO2 a la atm\'osfera. La deforestaci\'on es uno de los factores principales en el balance global de carbono, d\'onde la importancia de los ecosistemas forestales para mitigar las emisiones de gases es uno de los m\'as importantes, el cual radica en el potencial de fijaci\'on del CO2 en la biomasa de las especies arb\'oreas por medio de la fotos\'intesis; creando de este modo un reservorio importante que dependiendo del uso destinado podría almacenar el CO2 por un periodo de tiempo prolongado.\\~\\
+%------------------------------------------------
 
+	\begin{frame}
+		\frametitle{Contenido}
+		\tableofcontents[currentsection,currentsubsection]
+	\end{frame}
+
+%------------------------------------------------	
+
+\begin{frame}
+\frametitle{Planteamiento del problema}
+
+De entre los servicios ambientales que proporcionan los bosques, la captura de carbono ser\'a determinante para disminuir el calentamiento global y estabilizar el cambio clim\'atico producidos por el incremento en la atm\'osfera de los llamados Gases de Efecto Invernadero (GEI).\\~\\
 Paraguay es un pa\'is que basa su econom\'ia en la agricultura y la ganader\'ia extensiva, actividades que han afectado al recurso forestal dando como resultado extensas \'areas deforestadas y degradadas.\\~\\
 
-\end{frame}
-%------------------------------------------------
-\begin{frame}
-	\frametitle{Problem\'atica}
-	A pesar que existen leyes de protecci\'on para evitar la deforestaci\'on y valorar los bosques como la Ley de Deforestaci\'on Cero en la Regi\'on Oriental del Paraguay promulgada en el a\~{n}o 2004, y que ser\'a extendida hasta el 2018 y, la Ley de servicios ambientales 3001/06, entre otros instrumentos, los mismos necesitan apoyo para su monitoreo y aplicaci\'on efectiva, debido a que los costos en dinero y tiempo no suelen ser bajos por la necesidad de realizar muestreos en el terreno, m\'as a\'un en zonas del chaco por el dif\'icil acceso y falta de informaci\'on ambiental, como tambi\'en la compra de sistemas de car\'acter propietario.\\~\\
-	
-	Con el objetivo de implementar Pol\'iticas de mitigaci\'on del Cambio Cl\'im\'atico relativas a reducir las emisiones provenientes de la degradaci\'on y la deforestaci\'on (REDD+), los pa\'ises en desarrollo deben contar con estimaciones robustas s\'olidas en cuanto a las reservas de carbono forestal.
-	
-	
 \end{frame}
 
 %------------------------------------------------
@@ -145,7 +155,7 @@ La mayor\'ia de las investigaciones para estimar y mapear la biomasa en bosques 
 
 \begin{frame}
 	\frametitle{Antecedentes}
-	Sassan Saatchi de Jet Propulsion Laboratory, California Institute of Technology, en colaboraci\'on con la NASA, realiza investigaciones que se centra en diversos aspectos del ciclo de carbono terrestre. Usa una combinaci\'on de sensores remotos y datos in situ para mapear el carbono almacenado en los bosques, para cuantificar sus cambios con respecto a las perturbaciones humanas y naturales, tambi\'en estimar como las interacciones e impactos clim\'aticos son din\'amicas. 
+	Sassan Saatchi del Jet Propulsion Laboratory, California Institute of Technology, en colaboraci\'on con la NASA, realiza investigaciones que se centra en diversos aspectos del ciclo de carbono terrestre. Usa una combinaci\'on de sensores remotos y datos in situ para mapear el carbono almacenado en los bosques, para cuantificar sus cambios con respecto a las perturbaciones humanas y naturales, tambi\'en estimar el dinamismo de las interacciones e impactos clim\'aticos. 
 	
 	
 \end{frame}
@@ -156,19 +166,18 @@ La mayor\'ia de las investigaciones para estimar y mapear la biomasa en bosques 
 \begin{frame}
 	\frametitle{Antecedentes}
 
-	Existen trabajos realizados por estudiantes de la Facultad de Agronom\'ia como proyecto de grado en zonas especificas como la reserva de la biosfera del Chaco, Parque Nacional San Rafael y el Parque Nacional Defensores del chaco, todos ellos en la regi\'on Occidental del Paraguay. Implementan una metodolog\'ia base hecha en el marco denominado \textit{Desarrollo del estudio de linea de base para el sitio piloto Bosque atl\'antico de Alto Paran\'a. (BAAPA)} realizado por el Paraguay Land Use (ParLu), el cual es una iniciativa de World Wildlife Fund (WWF)	Paraguay y WWF Alemania que apoya las iniciativas REDD+ en Paraguay, generando a su vez un Mapa de stock de carbono y los correspondientes Mapas de cobertura y de Deforestaci\'on 2000 – 2005 y 2005 – 2011,todo esto conjuntamente con la  Carrera de Ingenier\'ia Forestal de la Facultad de Ciencias Agrarias – Universidad Nacional de Asunci\'on.
+	Existen trabajos realizados por estudiantes de la Facultad de Ciencias Agrarias - UNA como proyecto de grado en zonas especificas como la reserva de la biosfera del Chaco, Parque Nacional San Rafael y el Parque Nacional Defensores del chaco, todos ellos en la regi\'on Occidental del Paraguay. Implementan una metodolog\'ia base hecha en el marco denominado \textit{Desarrollo del estudio de linea de base para el sitio piloto Bosque atl\'antico de Alto Paran\'a. (BAAPA)} realizado por el Paraguay Land Use (ParLu), el cual es una iniciativa de World Wildlife Fund (WWF)	Paraguay y WWF Alemania que apoya las iniciativas REDD+ en Paraguay, generando mapas de stock de carbono y los correspondientes mapas de cobertura y de Deforestaci\'on 2000\textendash2005 y 2005\textendash2011 a partir de muestreos de parcelas in situ y clasificaciones supervisadas con la ayuda de aplicaciones con licencias de car\'acter propietario, todo esto conjuntamente con la  Carrera de Ingenier\'ia Forestal de la Facultad de Ciencias Agrarias perteneciente a la Universidad Nacional de Asunci\'on.
 	
 	
 \end{frame}
 
-%------------------------------------------------
 %------------------------------------------------
 
 
 \begin{frame}
 	\frametitle{Antecedentes}
 	
-Un estudio realizado por por University of Maryland Institute for Advanced Computer Studies denominado Forest Cover Change in Paraguay, nos muestra el cambio de vegetaci\'on estimado en todo el pais, utilizando el m\'etodo de asignaci\'on de etiquetado de cambio  clustering-supervised.
+Un estudio realizado por por University of Maryland Institute for Advanced Computer Studies denominado Forest Cover Change in Paraguay, nos muestra el cambio de vegetaci\'on estimado en todo el pais utilizando un m\'etodo iterativo de etiquetado de cambio por clusterizaci\'on supervisada. El trabajo detecta cambios de los a\~{n}os 1992 al 2000, donde aparte de proveer un etiquetado de cambios de vegetaci\'on fue realizada con im\'agenes de mejor resoluci\'on espacial, de acceso libre, generando informaci\'on m\'as precisa.
 	
 \end{frame}
 
@@ -196,7 +205,7 @@ Un estudio realizado por por University of Maryland Institute for Advanced Compu
 	\frametitle{Formulaci\'on general del Proyecto}
 	\begin{block}{Hip\'otesis del proyecto}
 		\begin{itemize}
-			\item La idea consiste en aplicar operaciones de procesamiento de im\'agenes para realizar una comparaci\'on multitemporal de im\'agenes espectrales e \'indices derivados de ellas, previo a la clasificaci\'on de vegetaci\'on para la estimaci\'on de carbono.
+			\item La idea consiste en aplicar operaciones de procesamiento de im\'agenes para realizar una comparaci\'on multitemporal de im\'agenes espectrales e \'indices derivados de ellas, previo a la clasificaci\'on de vegetaci\'on para la estimaci\'on de p\'erdida de carbono.
 		\end{itemize}
 	\end{block}
 	
@@ -223,14 +232,14 @@ Un estudio realizado por por University of Maryland Institute for Advanced Compu
 
 %------------------------------------------------
 %------------------------------------------------
-\begin{frame}\frametitle{Antecedentes - Carbono y Biomasa}
+\begin{frame}\frametitle{Carbono y Biomasa}
 
 La biomasa es aquella materia org\'anica de origen vegetal o animal, incluyendo los residuos y desechos org\'anicos, susceptible de ser aprovechada energ\'eticamente. Las plantas transforman la energ\'ia radiante del sol en energ\'ia qu\'imica a trav\'es de la fotos\'intesis, y parte de esta energ\'ia queda almacenada en forma de materia org\'anica.\\~\\
 El conocer la cantidad de biomasa por \'arbol en cada una de las especies que crecen en el bosque, permite estimar la cantidad de carbono que contiene un grupo de \'arboles, un rodal o el bosque en su totalidad, ya que al multiplicar la cantidad de biomasa por un factor de conversi\'on, obtenido por muestreo, se logra determinar la cantidad de carbono.
 
 \end{frame}
 %------------------------------------------------
-\begin{frame}\frametitle{Antecedentes - Teledetecci\'on}
+\begin{frame}\frametitle{Teledetecci\'on}
 
 		La teledetecci\'on es la ciencia y arte de obtener informaci\'on acerca de la superficie de la Tierra sin entrar en contacto con ella. Esto se realiza detectando y grabando la energ\'ia emitida o reflejada y procesando, analizando y aplicando esa informaci\'on.\\~\\
 		Para producirse la teledetecci\'on, se requiere de la interacci\'on de tres componentes principales: flujo energ\'etico, objeto observado y un sensor.
@@ -240,7 +249,7 @@ El conocer la cantidad de biomasa por \'arbol en cada una de las especies que cr
 
 %------------------------------------------------
 %------------------------------------------------
-\begin{frame}\frametitle{Antecedentes - Teledetecci\'on}
+\begin{frame}\frametitle{Teledetecci\'on}
 \textbf{El espectro electromagn\'etico}\\~\\
 Aunque los valores de longitudes de onda son continuos, se establece una serie de bandas en donde la radiación electromagnética manifiesta un comportamiento similar. El espectro electromagnético es la organización de estas bandas de longitudes de onda o frecuencia.
 Las bandas m\'as empleadas en teledetecci\'on son las siguientes:
@@ -256,7 +265,7 @@ Las bandas m\'as empleadas en teledetecci\'on son las siguientes:
 \end{frame}
 %------------------------------------------------
 %------------------------------------------------
-\begin{frame}\frametitle{Antecedentes - Teledetecci\'on}
+\begin{frame}\frametitle{Teledetecci\'on}
 	\textbf{Firmas espectrales}\\~\\	
 
 \begin{figure}
@@ -269,12 +278,26 @@ Las bandas m\'as empleadas en teledetecci\'on son las siguientes:
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}\frametitle{Antecedentes - Im\'agenes satelitales}
-La imagen satelital consiste de un arreglo matricial bidimensional de elementos de imagen llamados p\'ixeles, ordenados en filas y columnas formando una malla las im\'agenes organizadas de esta manera son conocidas como im\'agenes r\'aster. Cada p\'ixel representa un \'area de superficie sobre la tierra. Un p\'ixel tiene un valor de intensidad y una ubicaci\'on en la imagen bidimensional.
+\begin{frame}\frametitle{Teledetecci\'on y Biomasa }
+	
+	La biomasa es un par\'ametro que no se puede obtener directamente desde im\'agenes de sat\'elite, de hecho no se puede medir directamente ni siquiera en campo. Con la teledetecci\'on se obtienen im\'agenes que permiten analizar la reflectividad de los lugares en diferentes regiones del espectro electrom\'agnético y esa informaci\'on se puede transformar en ecuaciones que estimen par\'ametros biol\'ogicos de esas regiones (y a su vez, esos par\'ametros biol\'ogicos transformarlos en biomasa).
+	
 	
 \end{frame}
 %------------------------------------------------
-\begin{frame}\frametitle{Antecedentes - Resoluciones de un sensor}
+
+
+
+%------------------------------------------------
+\begin{frame}\frametitle{Sensores Remotos}
+Son sistemas de adquisici\'on de informaci\'on de la superficie terrestre, soportados sobre diferentes tipos de plataformas (terrestres, a\'ereas o satelitales), funcionan a trav\'es de la captura de la energ\'ia reflejada o radiada por la superficie, ya
+sea emitida por el sol (sensores pasivos) o por el mismo sensor (sensores activos). \\~\\
+Los productos que se obtienen al emplear estas herramientas son diversos y de diferentes especificaciones, entre ellos los m\'as conocidos son las fotografías aéreas y las im\'agenes de sat\'elite
+	
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}\frametitle{Resoluciones de un sensor}
 
 	\begin{itemize}
 		\item Resoluci\'on espacial
@@ -287,23 +310,52 @@ La imagen satelital consiste de un arreglo matricial bidimensional de elementos 
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}\frametitle{Antecedentes - Teledetecci\'on y Biomasa }
-	
-La biomasa es un par\'ametro que no se puede obtener directamente desde im\'agenes de sat\'elite, de hecho no se puede medir directamente ni siquiera en campo. Con la teledetecci\'on se obtienen im\'agenes que permiten analizar la reflectividad de los lugares en diferentes regiones del espectro electrom\'agnético y esa informaci\'on se puede transformar en ecuaciones que estimen par\'ametros biol\'ogicos de esas regiones (y a su vez, esos par\'ametros biol\'ogicos transformarlos en biomasa).
-	
+\begin{frame}\frametitle{Im\'agenes satelitales}
+	La imagen satelital consiste de un arreglo matricial bidimensional de elementos de imagen llamados p\'ixeles, ordenados en filas y columnas formando una malla las im\'agenes organizadas de esta manera son conocidas como im\'agenes r\'aster. Cada p\'ixel representa un \'area de superficie sobre la tierra. Un p\'ixel tiene un valor de intensidad y una ubicaci\'on en la imagen bidimensional.
 	
 \end{frame}
 %------------------------------------------------
 
 %------------------------------------------------
-\begin{frame}\frametitle{Antecedentes - Teledetecci\'on y Biomasa }
-	
-	La biomasa es un par\'ametro que no se puede obtener directamente desde im\'agenes de sat\'elite, de hecho no se puede medir directamente ni siquiera en campo. Con la teledetecci\'on se obtienen im\'agenes que permiten analizar la reflectividad de los lugares en diferentes regiones del espectro electrom\'agnético y esa informaci\'on se puede transformar en ecuaciones que estimen par\'ametros biol\'ogicos de esas regiones (y a su vez, esos par\'ametros biol\'ogicos transformarlos en biomasa).
-	
+\begin{frame}\frametitle{Sat\'elite Landsat}
+	Este sat\'elite, dotado de sensores empleados en teledetecci\'on fue dise\~{n}ado con
+	el fin de tener datos sobre el recurso terrestre, en base a este objetivo se dise\~{n}aron las
+	resoluciones para adaptarse a este fin. El sensor Landsat TM thematic mapper9
+	dise\~{n}ado directamente como su nombre lo indica para la cartograf\'ia tem\'atica, es un
+	equipo de barrido multi\textendash sespectral. La tarea principal de este sensor es el de control
+	medioambiental, la evaluaci\'on de desastres, la explotaci\'on del suelo y la
+	planificaci\'on regional, la cartograf\'ia, la administraci\'on de pastizales y la exploraci\'on
+	petrolera y de minerales.
 	
 \end{frame}
 %------------------------------------------------
 
+%------------------------------------------------
+\begin{frame}\frametitle{\'Indice de vegetaci\'on diferencial normalizada (NVDI)}
+	Los \'indices espectrales muestran un aspecto o caracter\'istica del terreno a partir de la informaci\'on radiom\'etrica contenida en las im\'agenes multiespectrales.\\~\\
+	El \'indice diferencial de vegetaci\'on normalizado (NDVI) ha sido ampliamente reconocido como uno de los m\'as \'utiles para el estudio de caracter\'isticas de la biosfera terrestre y su din\'amica, a nivel global, regional y local. El NDVI es un \'indice espectral normalizado que toma valores en el intervalo $[1,-1]$ y se extrae de las bandas correspondientes al rojo $B_{R}$ e infrarrojo pr\'oximo $B_{IRc}$ seg\'un la siguiente expresi\'on:
+	\begin{equation}
+	NDVI=\dfrac{B_{IRc}-B_{R}}{B_{IRc}+B_{R}}
+	\end{equation}
+
+\end{frame}
+%------------------------------------------------
+
+%------------------------------------------------
+\begin{frame}\frametitle{Preprocesamiento de im\'agenes satelitales}
+Consiste en el procesamiento inicial de los datos crudos para corregir las distorsiones radiom\'etricas y geom\'etricas de la imagen y eliminar el ruido.  Las distorsiones radiom\'etricas obedecen a mecanismos que alteran los valores de brillo de  los pixeles y se deben fundamentalmente a interferencias atmosf\'ericas y a efectos asociados  a instrumentaci\'on. Las correcciones atmosf\'ericas constituyen un problema muy complejo si se quieren aplicar  sobre la base de modelos f\'isicos del comportamiento de las radiaciones. En efecto, estos modelos tienen el m\'erito de su rigor cient\'ifico, precisi\'on y aplicabilidad a un amplio rango de circunstancias, pero suelen exigir complejos programas de computadora así como información meteorol\'ogica detallada relativa a las condiciones en que se registr\'o la escena. Esta informaci\'on es muy difícil de obtener y podemos decir que la aplicaci\'on rutinaria de estos modelos actualmente no es posible.  Una aproximaci\'on sencilla y pr\'actica a la correcci\'on del efecto atmosf\'erico se basa en la  consideraci\'on de los histogramas de las im\'agenes espectrales.
+\end{frame}
+%------------------------------------------------
+%------------------------------------------------
+\begin{frame}\frametitle{Proceso de detecci\'on de cambios}
+Los m\'etodos de comparaci\'on multitemporal, generan una imagen
+(\'indice de cambios) que representa el grado de cambio entre dos situaciones temporales;
+las celdas de la imagen resultante, contienen una variable continua de tipo cuantitativo. Se
+requiere de t\'ecnicas de segmentaci\'on y clasificaci\'on para cuantificar el
+grado de cambio asociado a cada celda; convertir una variable cuantitativa, en una variable
+cualitativa.
+\end{frame}
+%------------------------------------------------
 
 
 
@@ -372,23 +424,13 @@ Los ajustes geom\'etricos engloban toda serie de operaciones aplicadas sobre las
 	
 \end{frame}
 
-%------------------------------------------------
-\begin{frame}
-	\frametitle{Metodolog\'ia - Pre-Proceso}
-	\textbf{Extracci\'on de \'Indices - NDVI}\\~\\	
-	Los \'indices espectrales muestran un aspecto o caracter\'istica del terreno a partir de la informaci\'on radiom\'etrica contenida en las im\'agenes multiespectrales.\\~\\
-	El \'indice diferencial de vegetaci\'on normalizado (NDVI) ha sido ampliamente reconocido como uno de los m\'as \'utiles para el estudio de caracter\'isticas de la biosfera terrestre y su din\'amica, a nivel global, regional y local. El NDVI es un \'indice espectral normalizado que toma valores en el intervalo $[1,-1]$ y se extrae de las bandas correspondientes al rojo $B_{R}$ e infrarrojo pr\'oximo $B_{IRc}$ seg\'un la siguiente expresi\'on:
-	\begin{equation}
-	NDVI=\dfrac{B_{IRc}-B_{R}}{B_{IRc}+B_{R}}
-	\end{equation}
-	
-\end{frame}
+
 
 %------------------------------------------------
 \begin{frame}
 	\frametitle{Metodolog\'ia - Proceso de Detecci\'on de cambio}
 	\textbf{Comparaci\'on multitemporal}\\~\\	
-	La diferencia de imagen por ser el método más simple, fácil de interpretar y directo; se suele aplicar combinada con la extracción de índices espectrales.
+	La diferencia de imagen por ser el m\'etodo más simple, f\'acil de interpretar y directo; se suele aplicar combinada con la extracci\'on de \'indices espectrales.
 	\begin{equation}
 	I_{Dif.}=VD_{final}-VD_{inicial}
 	\end{equation}
@@ -425,9 +467,38 @@ Se propone realizar una normalizaci\'on radiom\'etrica iterativa, transformando 
 
 
 \end{frame}
+
+
 %------------------------------------------------
 \begin{frame}
 	\frametitle{Metodolog\'ia - Post-Proceso}
+	\textbf{C\'alculo de Carbono}\\~\\	
+	En base al mapa global de carbono correspondiente a Saatchi y a nuestro c\'alculo de NDVI de la misma fecha, se realizo un muestro observando una correlaci\'on. De esta forma es posible hallar una funci\'on lineal que convierta el NDVI a carbono.
+	
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Metodolog\'ia - Post-Proceso}
+	\textbf{Muestreo con 240 puntos aleatorios del a\~{n}o 2001}\\~\\	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth, height=0.6\textheight]{imagenes/ndviCarb}
+		\caption{Regresi\'on Lineal con r2= 0.509125 (moderado)}
+		\label{fig:ndviCarb}
+	\end{figure}
+	
+	
+\end{frame}
+
+
+
+
+%------------------------------------------------
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Pruebas experimentales}
 	\textbf{Evaluaci\'on de los resultados y control de calidad}\\~\\	
 Se realizaron el calculo del porcentaje de precisi\'on global y el coeficiente Kappa.
 	
@@ -461,32 +532,6 @@ Se realizaron el calculo del porcentaje de precisi\'on global y el coeficiente K
 	
 \end{frame}
 
-%------------------------------------------------
-\begin{frame}
-	\frametitle{Metodolog\'ia - Post-Proceso}
-	\textbf{C\'alculo de Carbono}\\~\\	
-	En base al mapa global de carbono correspondiente a Saatchi y a nuestro c\'alculo de NDVI de la misma fecha, se realizo un muestro observando una correlaci\'on. De esta forma es posible hallar una funci\'on lineal que convierta el NDVI a carbono.
-	
-\end{frame}
-
-%------------------------------------------------
-\begin{frame}
-	\frametitle{Metodolog\'ia - Post-Proceso}
-		\textbf{Muestreo con 240 puntos aleatorios del a\~{n}o 2001}\\~\\	
-\begin{figure}
-\centering
-\includegraphics[width=0.7\linewidth, height=0.6\textheight]{imagenes/ndviCarb}
-\caption{Regresi\'on Lineal con r2= 0.509125 (moderado)}
-\label{fig:ndviCarb}
-\end{figure}
-
-	
-\end{frame}
-
-
-
-
-%------------------------------------------------
 
 \begin{frame}
 \Huge{\centerline{Gracias}}
