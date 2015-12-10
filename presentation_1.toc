@@ -1,2 +1,7 @@
 \beamer@endinputifotherversion {3.24pt}
 \select@language {spanish}
+\beamer@sectionintoc {1}{Conceptos generales}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Cambio Clim\'atico}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Ciclo de carbono}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Secuestro de carbono}{5}{0}{1}
+\beamer@subsectionintoc {1}{4}{Medici\'on de balances de carbono}{6}{0}{1}
