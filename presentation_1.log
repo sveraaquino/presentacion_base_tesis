@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.27)  10 DEC 2015 18:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.27)  12 DEC 2015 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,30 +797,415 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen212
 )
+(/usr/share/texlive/texmf-dist/tex/generic/mathabx/mathabx.sty
+Package: mathabx 2003/07/29 v0.0 Non-standard LaTeX package mathabx
+\symmatha=\mathgroup6
+\symmathb=\mathgroup7
+\symmathx=\mathgroup8
+
+(/usr/share/texlive/texmf-dist/tex/generic/mathabx/mathabx.dcl
+LaTeX Font Info:    Redeclaring math symbol \cdotp on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \times on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \div on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \cdot on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \circ on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \ast on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \pm on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \mp on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \diamond on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \bullet on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \star on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \amalg on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \equiv on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \sim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \approx on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \simeq on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \asymp on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 119.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \neg on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \ll on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \gg on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \vdash on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \dashv on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \flat on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \natural on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \sharp on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \infty on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \propto on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 170.
+LaTeX Font Info:    Redeclaring math symbol \smile on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \frown on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 175.
+
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \mid on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \forall on input line 279.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 280.
+LaTeX Font Info:    Redeclaring math symbol \partial on input line 281.
+LaTeX Font Info:    Redeclaring math symbol \exists on input line 284.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 285.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 286.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 287.
+LaTeX Font Info:    Redeclaring math symbol \emptyset on input line 288.
+LaTeX Font Info:    Redeclaring math symbol \top on input line 290.
+LaTeX Font Info:    Redeclaring math symbol \bot on input line 291.
+LaTeX Font Info:    Redeclaring math symbol \perp on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 296.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 297.
+LaTeX Font Info:    Redeclaring math symbol \in on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \owns on input line 300.
+LaTeX Font Info:    Redeclaring math symbol \cap on input line 312.
+LaTeX Font Info:    Redeclaring math symbol \cup on input line 313.
+LaTeX Font Info:    Redeclaring math symbol \uplus on input line 314.
+LaTeX Font Info:    Redeclaring math symbol \sqcap on input line 315.
+LaTeX Font Info:    Redeclaring math symbol \sqcup on input line 316.
+LaTeX Font Info:    Redeclaring math symbol \wedge on input line 318.
+LaTeX Font Info:    Redeclaring math symbol \vee on input line 320.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 327.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 328.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 329.
+LaTeX Font Info:    Redeclaring math symbol \doublecap on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \doublecup on input line 333.
+LaTeX Font Info:    Redeclaring math symbol \subset on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \supset on input line 345.
+LaTeX Font Info:    Redeclaring math symbol \subseteq on input line 348.
+LaTeX Font Info:    Redeclaring math symbol \supseteq on input line 349.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 350.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 351.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 353.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 354.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 355.
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 357.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 358.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 359.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 360.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 361.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \sqsubseteq on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \sqsupseteq on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \triangleleft on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleleft on input line 408.
+
+LaTeX Font Info:    Redeclaring math symbol \triangleright on input line 409.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 410
+.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 411.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 412.
+LaTeX Font Info:    Redeclaring math symbol \trianglelefteq on input line 413.
+LaTeX Font Info:    Redeclaring math symbol \trianglerighteq on input line 414.
+
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 415.
+
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 416
+.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 42
+7.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 42
+8.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 4
+29.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 437.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 438.
+LaTeX Font Info:    Redeclaring math symbol \leq on input line 439.
+LaTeX Font Info:    Redeclaring math symbol \geq on input line 441.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 443.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 445.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 451.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 452.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 453.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 454.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 455.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 456.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 457.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 458.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 459.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 460.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 461.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 462.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 465.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 466.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 467.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 468.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 469.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 470.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 472.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 473.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 476.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 477.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 478.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 479.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 482.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 483.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 485.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 486.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 488.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 489.
+LaTeX Font Info:    Redeclaring math symbol \prec on input line 498.
+LaTeX Font Info:    Redeclaring math symbol \succ on input line 499.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 500.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 501.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 502.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 503.
+LaTeX Font Info:    Redeclaring math symbol \preceq on input line 506.
+LaTeX Font Info:    Redeclaring math symbol \succeq on input line 507.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 508.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 509.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 512.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 513.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 517.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 518.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 521.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 522.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 523.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 524.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 527.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 528.
+LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 540.
+LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 542.
+LaTeX Font Info:    Redeclaring math symbol \nwarrow on input line 546.
+LaTeX Font Info:    Redeclaring math symbol \nearrow on input line 547.
+LaTeX Font Info:    Redeclaring math symbol \swarrow on input line 548.
+LaTeX Font Info:    Redeclaring math symbol \searrow on input line 549.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrow on input line 550.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 552.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 553.
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 554.
+
+LaTeX Font Info:    Redeclaring math symbol \mapstochar on input line 557.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoonup on input line 560.
+LaTeX Font Info:    Redeclaring math symbol \rightharpoonup on input line 561.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoondown on input line 562.
+
+LaTeX Font Info:    Redeclaring math symbol \rightharpoondown on input line 563
+.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 564.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 565.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 566.
+LaTeX Font Info:    Redeclaring math symbol \restriction on input line 567.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 568
+.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+9.
+LaTeX Font Info:    Redeclaring math symbol \Leftarrow on input line 575.
+LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 576.
+LaTeX Font Info:    Redeclaring math symbol \Leftrightarrow on input line 579.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 581.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 582.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 583.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 593.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 594
+.
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 595.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 596.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 597.
+
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 598.
+
+LaTeX Font Info:    Redeclaring math symbol \rhook on input line 612.
+LaTeX Font Info:    Redeclaring math symbol \lhook on input line 613.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 614.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 615.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 617.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 619.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 624.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 626.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 631.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 633.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 641.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 642
+.
+LaTeX Font Info:    Redeclaring math symbol \rightsquigarrow on input line 645.
+
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+646.
+LaTeX Font Info:    Redeclaring math symbol \oplus on input line 658.
+LaTeX Font Info:    Redeclaring math symbol \ominus on input line 659.
+LaTeX Font Info:    Redeclaring math symbol \otimes on input line 661.
+LaTeX Font Info:    Redeclaring math symbol \odot on input line 663.
+LaTeX Font Info:    Redeclaring math symbol \oslash on input line 675.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 683.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 684.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 686.
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 688.
+\mayacnter=\count170
+\mayacnta=\count171
+\mayacntb=\count172
+\mayacntc=\count173
+\mayawidth=\dimen213
+LaTeX Font Info:    Redeclaring math symbol \intop on input line 753.
+LaTeX Font Info:    Redeclaring math symbol \ointop on input line 760.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 842.
+LaTeX Info: Redefining \{ on input line 846.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 848.
+LaTeX Info: Redefining \} on input line 852.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 858.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 859.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 863.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 865.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 868.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 869.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 870.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 871.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 872.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 873.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 880.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 881.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 882.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 883.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 884.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 885.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 903.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 905.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 907.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 909.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 944.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 946.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count174
+\lst@gtempboxa=\box56
+\lst@token=\toks45
+\lst@length=\count175
+\lst@currlwidth=\dimen214
+\lst@column=\count176
+\lst@pos=\count177
+\lst@lostspace=\dimen215
+\lst@width=\dimen216
+\lst@newlines=\count178
+\lst@lineno=\count179
+\lst@maxwidth=\dimen217
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/07/10 1.5 (Carsten Heinz)
+\c@lstnumber=\count180
+\lst@skipnumbers=\count181
+\lst@framebox=\box57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/06/27 1.5pre1 listings configuration
+))
+Package: listings 2013/07/10 1.5 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count182
+\float@exts=\toks46
+\float@box=\box58
+\@float@everytoks=\toks47
+\@floatcapt=\box59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip60
+\subfigcapskip=\skip61
+\subfigcaptopadj=\dimen218
+\subfigbottomskip=\skip62
+\subfigcapmargin=\dimen219
+\subfiglabelskip=\skip63
+\c@subfigure=\count183
+\c@lofdepth=\count184
+\c@subtable=\count185
+\c@lotdepth=\count186
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip64
+\subfig@bottom=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/05/30 v0.4u Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count187
+\calc@Bcount=\count188
+\calc@Adimen=\dimen220
+\calc@Bdimen=\dimen221
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count189
+\calc@Cskip=\skip68
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/05/30 v0.4u Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box60
+\AM@toc@title=\toks48
+\c@AM@survey=\count190
+\AM@templatesizebox=\box61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks49
+\verbatim@line=\toks50
+\verbatim@in@stream=\read2
+)
 (./presentation_1.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
-
-
-LaTeX Warning: Label `fig:cicloCarbono' multiply defined.
-
 )
 \openout1 = `presentation_1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -858,17 +1243,17 @@ LaTeX Font Info:    ... okay on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count170
-\scratchdimen=\dimen213
-\scratchbox=\box56
-\nofMPsegments=\count171
-\nofMParguments=\count172
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count173
-\MPscratchDim=\dimen214
-\MPnumerator=\count174
-\makeMPintoPDFobject=\count175
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count191
+\scratchdimen=\dimen222
+\scratchbox=\box62
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen223
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -885,8 +1270,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 111.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 129.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -894,58 +1279,58 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count176
+\c@section@level=\count197
 )
-LaTeX Info: Redefining \ref on input line 111.
-LaTeX Info: Redefining \pageref on input line 111.
-LaTeX Info: Redefining \nameref on input line 111.
+LaTeX Info: Redefining \ref on input line 129.
+LaTeX Info: Redefining \pageref on input line 129.
+LaTeX Info: Redefining \nameref on input line 129.
 
 (./presentation_1.out) (./presentation_1.out)
 \@outlinefile=\write5
 \openout5 = `presentation_1.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 111.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 129.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 111.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 129.
+\symnumbers=\mathgroup9
+\sympureletters=\mathgroup10
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 111.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 111.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 111.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 111.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 111.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 111.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 111.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 111.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 111.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 111.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 111.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 111.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 129.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 111.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 129.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 111.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 111.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 111.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 111.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 111.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 111.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 129.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -971,20 +1356,21 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 111.
-LaTeX Info: Redefining \. on input line 111.
-LaTeX Info: Redefining \% on input line 111.
+LaTeX Info: Redefining \includegraphics on input line 129.
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
+\c@lstlisting=\count198
  (./presentation_1.nav)
-<imagenes/background2.png, id=37, 1371.1225pt x 1204.5pt>
+<imagenes/background2.png, id=53, 1371.1225pt x 1204.5pt>
 File: imagenes/background2.png Graphic file (type png)
 
 <use imagenes/background2.png>
-Package pdftex.def Info: imagenes/background2.png used on input line 115.
+Package pdftex.def Info: imagenes/background2.png used on input line 133.
 (pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 115.
+(Font)              size <5> substituted on input line 133.
 
 [1
 
@@ -995,77 +1381,693 @@ LaTeX Info: Redefining \% on input line 2.
 )
 File: imagenes/background2.png Graphic file (type png)
  <use imagenes/background2.png>
-Package pdftex.def Info: imagenes/background2.png used on input line 122.
+Package pdftex.def Info: imagenes/background2.png used on input line 140.
 (pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
  [2
 
 ]
-<imagenes/cap2/calentamientoGlobal.jpg, id=113, 632.3625pt x 446.66875pt>
+<imagenes/cap2/calentamientoGlobal.jpg, id=137, 632.3625pt x 446.66875pt>
 File: imagenes/cap2/calentamientoGlobal.jpg Graphic file (type jpg)
 
 <use imagenes/cap2/calentamientoGlobal.jpg>
 Package pdftex.def Info: imagenes/cap2/calentamientoGlobal.jpg used on input li
-ne 136.
+ne 152.
 (pdftex.def)             Requested size: 239.60567pt x 169.24516pt.
 File: imagenes/background2.png Graphic file (type png)
  <use imagenes/background2.png>
-Package pdftex.def Info: imagenes/background2.png used on input line 136.
+Package pdftex.def Info: imagenes/background2.png used on input line 152.
 (pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
 
 [3
 
  <./imagenes/cap2/calentamientoGlobal.jpg>]
-<imagenes/cicloCarbono.jpg, id=141, 521.95pt x 521.95pt>
+<imagenes/cicloCarbono.jpg, id=167, 521.95pt x 521.95pt>
 File: imagenes/cicloCarbono.jpg Graphic file (type jpg)
 
 <use imagenes/cicloCarbono.jpg>
-Package pdftex.def Info: imagenes/cicloCarbono.jpg used on input line 148.
+Package pdftex.def Info: imagenes/cicloCarbono.jpg used on input line 163.
 (pdftex.def)             Requested size: 171.14764pt x 171.14494pt.
 File: imagenes/background2.png Graphic file (type png)
  <use imagenes/background2.png>
-Package pdftex.def Info: imagenes/background2.png used on input line 148.
+Package pdftex.def Info: imagenes/background2.png used on input line 163.
 (pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
  [4
 
  <./imagenes/cicloCarbono.jpg>]
-File: imagenes/cicloCarbono.jpg Graphic file (type jpg)
- <use imagenes/cicloCarbono.jpg>
-Package pdftex.def Info: imagenes/cicloCarbono.jpg used on input line 160.
-(pdftex.def)             Requested size: 171.14764pt x 171.14494pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:cicloCarb
-ono}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.160 	\end{frame}
-                  
-File: imagenes/background2.png Graphic file (type png)
- <use imagenes/background2.png>
-Package pdftex.def Info: imagenes/background2.png used on input line 160.
-(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
- [5
-
-]
-<imagenes/inventario-forestal.jpg, id=193, 642.4pt x 230.8625pt>
+<imagenes/inventario-forestal.jpg, id=196, 642.4pt x 230.8625pt>
 File: imagenes/inventario-forestal.jpg Graphic file (type jpg)
 
 <use imagenes/inventario-forestal.jpg>
 Package pdftex.def Info: imagenes/inventario-forestal.jpg used on input line 18
-3.
+7.
 (pdftex.def)             Requested size: 224.2757pt x 80.59875pt.
 
-<imagenes/sensores.png, id=194, 900.36375pt x 362.10281pt>
+<imagenes/sensores.png, id=197, 900.36375pt x 362.10281pt>
 File: imagenes/sensores.png Graphic file (type png)
 
 <use imagenes/sensores.png>
-Package pdftex.def Info: imagenes/sensores.png used on input line 183.
+Package pdftex.def Info: imagenes/sensores.png used on input line 187.
 (pdftex.def)             Requested size: 224.2757pt x 90.19395pt.
+
+Overfull \vbox (0.42213pt too high) detected at line 187
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 187.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [5
+
+ <./imagenes/inventario-forestal.jpg> <./imagenes/sensores.png>]
+<imagenes/cap3/teledeteccion.png, id=228, 451.6875pt x 328.22626pt>
+File: imagenes/cap3/teledeteccion.png Graphic file (type png)
+
+<use imagenes/cap3/teledeteccion.png>
+Package pdftex.def Info: imagenes/cap3/teledeteccion.png used on input line 198
+.
+(pdftex.def)             Requested size: 239.60567pt x 174.11433pt.
 File: imagenes/background2.png Graphic file (type png)
  <use imagenes/background2.png>
-Package pdftex.def Info: imagenes/background2.png used on input line 183.
+Package pdftex.def Info: imagenes/background2.png used on input line 198.
 (pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
  [6
 
- <./imagenes/inventario-forestal.jpg> <./imagenes/sensores.png>]
+ <./imagenes/cap3/teledeteccion.png>]
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 211.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [7
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 247.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 247.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 247.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [8
+
+]
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 269.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [9
+
+]
+<imagenes/cap3/resolucion_espacial_n.jpg, id=339, 599.23875pt x 385.44pt>
+File: imagenes/cap3/resolucion_espacial_n.jpg Graphic file (type jpg)
+
+<use imagenes/cap3/resolucion_espacial_n.jpg>
+Package pdftex.def Info: imagenes/cap3/resolucion_espacial_n.jpg used on input 
+line 290.
+(pdftex.def)             Requested size: 136.91603pt x 88.06119pt.
+
+<imagenes/cap3/espectral_spot_landsat.png, id=340, 423.08063pt x 242.40562pt>
+File: imagenes/cap3/espectral_spot_landsat.png Graphic file (type png)
+
+<use imagenes/cap3/espectral_spot_landsat.png>
+Package pdftex.def Info: imagenes/cap3/espectral_spot_landsat.png used on input
+ line 290.
+(pdftex.def)             Requested size: 136.91603pt x 78.44429pt.
+
+Overfull \vbox (0.39323pt too high) detected at line 290
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 290.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [10
+
+ <./imagenes/cap3/resolucion_espacial_n.jpg> <./imagenes/cap3/espectral_spot_la
+ndsat.png>]
+<imagenes/cap3/radiometrica_bits.png, id=371, 468.24937pt x 171.64125pt>
+File: imagenes/cap3/radiometrica_bits.png Graphic file (type png)
+
+<use imagenes/cap3/radiometrica_bits.png>
+Package pdftex.def Info: imagenes/cap3/radiometrica_bits.png used on input line
+ 310.
+(pdftex.def)             Requested size: 171.14764pt x 62.73625pt.
+
+<imagenes/cap3/resolucion_temporal_land.png, id=372, 537.00626pt x 261.97874pt>
+File: imagenes/cap3/resolucion_temporal_land.png Graphic file (type png)
+<use imagenes/cap3/resolucion_temporal_land.png>
+Package pdftex.def Info: imagenes/cap3/resolucion_temporal_land.png used on inp
+ut line 310.
+(pdftex.def)             Requested size: 171.14764pt x 83.49512pt.
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 310.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [11
+
+ <./imagenes/cap3/radiometrica_bits.png> <./imagenes/cap3/resolucion_temporal_l
+and.png>]
+<imagenes/cap3/imagen_satelital_k4.png, id=404, 455.45157pt x 228.10219pt>
+File: imagenes/cap3/imagen_satelital_k4.png Graphic file (type png)
+
+<use imagenes/cap3/imagen_satelital_k4.png>
+Package pdftex.def Info: imagenes/cap3/imagen_satelital_k4.png used on input li
+ne 322.
+(pdftex.def)             Requested size: 239.60567pt x 120.00255pt.
+
+Overfull \vbox (4.66116pt too high) detected at line 322
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 322.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [12
+
+ <./imagenes/cap3/imagen_satelital_k4.png>]
+<imagenes/cap3/correccImagenes.png, id=433, 993.7125pt x 314.67563pt>
+File: imagenes/cap3/correccImagenes.png Graphic file (type png)
+
+<use imagenes/cap3/correccImagenes.png>
+Package pdftex.def Info: imagenes/cap3/correccImagenes.png used on input line 3
+43.
+(pdftex.def)             Requested size: 239.60567pt x 75.87419pt.
+
+<imagenes/cap3/correcError.png, id=434, 545.78906pt x 215.30438pt>
+File: imagenes/cap3/correcError.png Graphic file (type png)
+
+<use imagenes/cap3/correcError.png>
+Package pdftex.def Info: imagenes/cap3/correcError.png used on input line 343.
+(pdftex.def)             Requested size: 171.14764pt x 67.51242pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 343.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [13
+
+ <./imagenes/cap3/correccImagenes.png> <./imagenes/cap3/correcError.png>]
+<imagenes/cap3/Firma_espectral_vegetacion_vigorosa.jpg, id=466, 532.99126pt x 2
+89.08pt>
+File: imagenes/cap3/Firma_espectral_vegetacion_vigorosa.jpg Graphic file (type 
+jpg)
+ <use imagenes/cap3/Firma_espectral_vegetacion_vigorosa.jpg>
+Package pdftex.def Info: imagenes/cap3/Firma_espectral_vegetacion_vigorosa.jpg 
+used on input line 365.
+(pdftex.def)             Requested size: 205.37926pt x 111.39098pt.
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 365.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [14
+
+ <./imagenes/cap3/Firma_espectral_vegetacion_vigorosa.jpg>]
+File: imagenes/cap3/Firma_espectral_vegetacion_vigorosa.jpg Graphic file (type 
+jpg)
+ <use imagenes/cap3/Firma_espectral_vegetacion_vigorosa.jpg>
+Package pdftex.def Info: imagenes/cap3/Firma_espectral_vegetacion_vigorosa.jpg 
+used on input line 365.
+(pdftex.def)             Requested size: 205.37926pt x 111.39098pt.
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 365.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [15
+
+]
+<imagenes/cap4/normalizacionZecuacion_3.png, id=522, 851.43094pt x 397.485pt>
+File: imagenes/cap4/normalizacionZecuacion_3.png Graphic file (type png)
+
+<use imagenes/cap4/normalizacionZecuacion_3.png>
+Package pdftex.def Info: imagenes/cap4/normalizacionZecuacion_3.png used on inp
+ut line 380.
+(pdftex.def)             Requested size: 342.2953pt x 159.79784pt.
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 380.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [16
+
+ <./imagenes/cap4/normalizacionZecuacion_3.png>]
+File: imagenes/cap4/normalizacionZecuacion_3.png Graphic file (type png)
+ <use imagenes/cap4/normalizacionZecuacion_3.png>
+Package pdftex.def Info: imagenes/cap4/normalizacionZecuacion_3.png used on inp
+ut line 380.
+(pdftex.def)             Requested size: 342.2953pt x 159.79784pt.
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 380.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [17
+
+]
+<imagenes/cap4/metodologiaCarbono_3.png, id=576, 595.47469pt x 381.67593pt>
+File: imagenes/cap4/metodologiaCarbono_3.png Graphic file (type png)
+
+<use imagenes/cap4/metodologiaCarbono_3.png>
+Package pdftex.def Info: imagenes/cap4/metodologiaCarbono_3.png used on input l
+ine 391.
+(pdftex.def)             Requested size: 273.83728pt x 175.51482pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 391.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+
+[18
+
+ <./imagenes/cap4/metodologiaCarbono_3.png>]
+<imagenes/cap4/deteccionCambio_4.png, id=607, 979.40906pt x 417.81094pt>
+File: imagenes/cap4/deteccionCambio_4.png Graphic file (type png)
+
+<use imagenes/cap4/deteccionCambio_4.png>
+Package pdftex.def Info: imagenes/cap4/deteccionCambio_4.png used on input line
+ 417.
+(pdftex.def)             Requested size: 342.2953pt x 146.01926pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 417.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+
+[19
+
+ <./imagenes/cap4/deteccionCambio_4.png>]
+<imagenes/cap4/discriminacionForestal_2.png, id=639, 948.54375pt x 344.03531pt>
+File: imagenes/cap4/discriminacionForestal_2.png Graphic file (type png)
+<use imagenes/cap4/discriminacionForestal_2.png>
+Package pdftex.def Info: imagenes/cap4/discriminacionForestal_2.png used on inp
+ut line 417.
+(pdftex.def)             Requested size: 342.2953pt x 124.14659pt.
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 417.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [20
+
+ <./imagenes/cap4/discriminacionForestal_2.png>] <imagenes/cap4/interseccionPer
+dida.png, id=666, 401.24907pt x 368.1253pt>
+File: imagenes/cap4/interseccionPerdida.png Graphic file (type png)
+
+<use imagenes/cap4/interseccionPerdida.png>
+Package pdftex.def Info: imagenes/cap4/interseccionPerdida.png used on input li
+ne 417.
+(pdftex.def)             Requested size: 205.37926pt x 188.42671pt.
+
+Overfull \vbox (2.95613pt too high) detected at line 417
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 417.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [21
+
+ <./imagenes/cap4/interseccionPerdida.png>]
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 444.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [22
+
+]
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 444.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [23
+
+]
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 444.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [24
+
+]
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 444.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [25
+
+]
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 444.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [26
+
+]
+<imagenes/cap4/ejemplo_entrada.png, id=832, 453.94594pt x 268.75406pt>
+File: imagenes/cap4/ejemplo_entrada.png Graphic file (type png)
+
+<use imagenes/cap4/ejemplo_entrada.png>
+Package pdftex.def Info: imagenes/cap4/ejemplo_entrada.png used on input line 4
+81.
+(pdftex.def)             Requested size: 205.37926pt x 121.59435pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 481.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [27
+
+ <./imagenes/cap4/ejemplo_entrada.png>]
+<imagenes/cap4/ejemplo_iteracion_1.png, id=861, 831.85782pt x 663.22781pt>
+File: imagenes/cap4/ejemplo_iteracion_1.png Graphic file (type png)
+
+<use imagenes/cap4/ejemplo_iteracion_1.png>
+Package pdftex.def Info: imagenes/cap4/ejemplo_iteracion_1.png used on input li
+ne 481.
+(pdftex.def)             Requested size: 256.72147pt x 204.67757pt.
+
+Overfull \vbox (5.60698pt too high) detected at line 481
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 481.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [28
+
+ <./imagenes/cap4/ejemplo_iteracion_1.png>]
+<imagenes/cap4/ejemplo_iteracion_2.png, id=889, 873.2625pt x 663.22781pt>
+File: imagenes/cap4/ejemplo_iteracion_2.png Graphic file (type png)
+
+<use imagenes/cap4/ejemplo_iteracion_2.png>
+Package pdftex.def Info: imagenes/cap4/ejemplo_iteracion_2.png used on input li
+ne 481.
+(pdftex.def)             Requested size: 273.83728pt x 207.9767pt.
+
+Overfull \vbox (8.90611pt too high) detected at line 481
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 481.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [29
+
+ <./imagenes/cap4/ejemplo_iteracion_2.png>]
+<imagenes/cap4/ejemplo_iteracion_3.png, id=917, 873.2625pt x 663.22781pt>
+File: imagenes/cap4/ejemplo_iteracion_3.png Graphic file (type png)
+
+<use imagenes/cap4/ejemplo_iteracion_3.png>
+Package pdftex.def Info: imagenes/cap4/ejemplo_iteracion_3.png used on input li
+ne 481.
+(pdftex.def)             Requested size: 273.83728pt x 207.9767pt.
+
+Overfull \vbox (8.90611pt too high) detected at line 481
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 481.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [30
+
+ <./imagenes/cap4/ejemplo_iteracion_3.png>]
+<imagenes/cap4/ejemplo_ndvi.png, id=946, 565.36218pt x 525.46312pt>
+File: imagenes/cap4/ejemplo_ndvi.png Graphic file (type png)
+
+<use imagenes/cap4/ejemplo_ndvi.png>
+Package pdftex.def Info: imagenes/cap4/ejemplo_ndvi.png used on input line 481.
+
+(pdftex.def)             Requested size: 205.37926pt x 190.8824pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 481.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [31
+
+ <./imagenes/cap4/ejemplo_ndvi.png>]
+<imagenes/cap4/ejemplo_resultado.png, id=974, 620.3175pt x 521.69907pt>
+File: imagenes/cap4/ejemplo_resultado.png Graphic file (type png)
+
+<use imagenes/cap4/ejemplo_resultado.png>
+Package pdftex.def Info: imagenes/cap4/ejemplo_resultado.png used on input line
+ 481.
+(pdftex.def)             Requested size: 273.83728pt x 230.29657pt.
+
+Overfull \vbox (31.22598pt too high) detected at line 481
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 481.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [32
+
+ <./imagenes/cap4/ejemplo_resultado.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
+[]|\OT1/cmss/bx/n/10.95 Perdida
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 530.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [33
+
+]
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 530.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [34
+
+]
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 530.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [35
+
+]
+<imagenes/cap5/mascaraVCF.png, id=1080, 621.07031pt x 313.17pt>
+File: imagenes/cap5/mascaraVCF.png Graphic file (type png)
+
+<use imagenes/cap5/mascaraVCF.png>
+Package pdftex.def Info: imagenes/cap5/mascaraVCF.png used on input line 588.
+(pdftex.def)             Requested size: 273.83728pt x 138.07715pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 588.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [36
+
+ <./imagenes/cap5/mascaraVCF.png>]
+<imagenes/cap5/vcfAleatorio.png, id=1112, 638.385pt x 309.40594pt>
+File: imagenes/cap5/vcfAleatorio.png Graphic file (type png)
+
+<use imagenes/cap5/vcfAleatorio.png>
+Package pdftex.def Info: imagenes/cap5/vcfAleatorio.png used on input line 588.
+
+(pdftex.def)             Requested size: 273.83728pt x 132.72092pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 588.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [37
+
+ <./imagenes/cap5/vcfAleatorio.png>]
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 588.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [38
+
+]
+<imagenes/cap5/carbNdvi.png, id=1166, 428.35031pt x 307.1475pt>
+File: imagenes/cap5/carbNdvi.png Graphic file (type png)
+
+<use imagenes/cap5/carbNdvi.png>
+Package pdftex.def Info: imagenes/cap5/carbNdvi.png used on input line 617.
+(pdftex.def)             Requested size: 273.83728pt x 196.35344pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 617.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [39
+
+ <./imagenes/cap5/carbNdvi.png>] <imagenes/cap4/ndviCarb.png, id=1197, 481.8pt 
+x 361.35pt>
+File: imagenes/cap4/ndviCarb.png Graphic file (type png)
+
+<use imagenes/cap4/ndviCarb.png>
+Package pdftex.def Info: imagenes/cap4/ndviCarb.png used on input line 617.
+(pdftex.def)             Requested size: 273.83728pt x 205.38167pt.
+
+Overfull \vbox (52.13965pt too high) detected at line 617
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 617.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [40
+
+ <./imagenes/cap4/ndviCarb.png>]
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 617.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [41
+
+]
+<imagenes/cap5/zonas.png, id=1249, 344.03531pt x 313.9228pt>
+File: imagenes/cap5/zonas.png Graphic file (type png)
+
+<use imagenes/cap5/zonas.png>
+Package pdftex.def Info: imagenes/cap5/zonas.png used on input line 726.
+(pdftex.def)             Requested size: 188.26346pt x 171.78627pt.
+
+Overfull \vbox (2.26013pt too high) detected at line 726
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 726.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [42
+
+ <./imagenes/cap5/zonas.png>]
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 726.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [43
+
+]
+<imagenes/cap5/res_zona_urbana.png, id=1306, 937.25156pt x 380.17032pt>
+File: imagenes/cap5/res_zona_urbana.png Graphic file (type png)
+
+<use imagenes/cap5/res_zona_urbana.png>
+Package pdftex.def Info: imagenes/cap5/res_zona_urbana.png used on input line 7
+26.
+(pdftex.def)             Requested size: 342.2953pt x 138.84512pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 726.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [44
+
+ <./imagenes/cap5/res_zona_urbana.png>]
+<imagenes/cap5/res_zona_rural.png, id=1334, 992.95969pt x 682.04813pt>
+File: imagenes/cap5/res_zona_rural.png Graphic file (type png)
+
+<use imagenes/cap5/res_zona_rural.png>
+Package pdftex.def Info: imagenes/cap5/res_zona_rural.png used on input line 72
+6.
+(pdftex.def)             Requested size: 239.60567pt x 164.5795pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 726.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [45
+
+ <./imagenes/cap5/res_zona_rural.png>]
+<imagenes/cap5/res_zona_humeda.png, id=1362, 812.28468pt x 671.50874pt>
+File: imagenes/cap5/res_zona_humeda.png Graphic file (type png)
+
+<use imagenes/cap5/res_zona_humeda.png>
+Package pdftex.def Info: imagenes/cap5/res_zona_humeda.png used on input line 7
+26.
+(pdftex.def)             Requested size: 205.37926pt x 169.7826pt.
+
+Overfull \vbox (0.25645pt too high) detected at line 726
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 726.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [46
+
+ <./imagenes/cap5/res_zona_humeda.png>]
+<imagenes/cap5/pcfp.png, id=1391, 444.15938pt x 470.50781pt>
+File: imagenes/cap5/pcfp.png Graphic file (type png)
+
+<use imagenes/cap5/pcfp.png>
+Package pdftex.def Info: imagenes/cap5/pcfp.png used on input line 726.
+(pdftex.def)             Requested size: 171.14764pt x 181.30042pt.
+
+Overfull \vbox (11.77428pt too high) detected at line 726
+ []
+
+File: imagenes/background2.png Graphic file (type png)
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 726.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [47
+
+ <./imagenes/cap5/pcfp.png>]
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 726.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [48
+
+]
+<imagenes/cap5/kappaGrafico.png, id=1445, 702.37407pt x 372.64218pt>
+File: imagenes/cap5/kappaGrafico.png Graphic file (type png)
+
+<use imagenes/cap5/kappaGrafico.png>
+Package pdftex.def Info: imagenes/cap5/kappaGrafico.png used on input line 726.
+
+(pdftex.def)             Requested size: 308.06367pt x 163.44563pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 726.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [49
+
+ <./imagenes/cap5/kappaGrafico.png>]
+<imagenes/cap5/gaGrafico.png, id=1473, 763.35187pt x 365.86688pt>
+File: imagenes/cap5/gaGrafico.png Graphic file (type png)
+
+<use imagenes/cap5/gaGrafico.png>
+Package pdftex.def Info: imagenes/cap5/gaGrafico.png used on input line 726.
+(pdftex.def)             Requested size: 308.06367pt x 147.6505pt.
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 726.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [50
+
+ <./imagenes/cap5/gaGrafico.png>]
+File: imagenes/background2.png Graphic file (type png)
+ <use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 741.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [51
+
+]
+File: imagenes/background2.png Graphic file (type png)
+
+<use imagenes/background2.png>
+Package pdftex.def Info: imagenes/background2.png used on input line 757.
+(pdftex.def)             Requested size: 364.19536pt x 319.92615pt.
+ [52
+
+]
 \tf@nav=\write6
 \openout6 = `presentation_1.nav'.
 
@@ -1075,43 +2077,46 @@ Package pdftex.def Info: imagenes/background2.png used on input line 183.
 \tf@snm=\write8
 \openout8 = `presentation_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 760.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 760.
  (./presentation_1.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 760.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 760.
 Package rerunfilecheck Info: File `presentation_1.out' has not changed.
-(rerunfilecheck)             Checksum: BAEDD8388C0DC27E0610B8545469E0D2;339.
+(rerunfilecheck)             Checksum: C08376EA01AD84F64F928127A61715CE;518.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 760.
  ) 
 Here is how much of TeX's memory you used:
- 18717 strings out of 493307
- 351184 string characters out of 6139905
- 433640 words of memory out of 5000000
- 21711 multiletter control sequences out of 15000+600000
- 6402 words of font info for 23 fonts, out of 8000000 for 9000
+ 21633 strings out of 493307
+ 395765 string characters out of 6139905
+ 508024 words of memory out of 5000000
+ 24395 multiletter control sequences out of 15000+600000
+ 20191 words of font info for 70 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 55i,16n,62p,403b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on presentation_1.pdf (6 pages, 1089769 bytes).
+ 55i,16n,60p,624b,788s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/mathabx-type1/matha6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/mathabx-type1/matha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb>
+Output written on presentation_1.pdf (52 pages, 4881144 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 22 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1621 PDF objects out of 1728 (max. 8388607)
+ 1461 compressed objects within 15 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 331 words of extra memory for PDF output out of 10000 (max. 10000000)
 

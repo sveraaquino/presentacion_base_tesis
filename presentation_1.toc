@@ -1,7 +1,11 @@
 \beamer@endinputifotherversion {3.24pt}
 \select@language {spanish}
 \beamer@sectionintoc {1}{Conceptos generales}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Cambio Clim\'atico}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Ciclo de carbono}{4}{0}{1}
-\beamer@subsectionintoc {1}{3}{Secuestro de carbono}{5}{0}{1}
-\beamer@subsectionintoc {1}{4}{Medici\'on de balances de carbono}{6}{0}{1}
+\beamer@sectionintoc {2}{Motivaci\'on}{7}{0}{2}
+\beamer@sectionintoc {3}{Trabajos relacionados}{8}{0}{3}
+\beamer@sectionintoc {4}{Objetivos}{9}{0}{4}
+\beamer@sectionintoc {5}{Im\'agenes satelitales}{10}{0}{5}
+\beamer@sectionintoc {6}{Metodolog\'ia propuesta}{18}{0}{6}
+\beamer@sectionintoc {7}{M\'etricas de evaluaci\'on}{33}{0}{7}
+\beamer@sectionintoc {8}{Pruebas y resultados experimentales}{36}{0}{8}
+\beamer@sectionintoc {9}{Conclusiones y trabajos futuros}{51}{0}{9}
